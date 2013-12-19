@@ -4,5 +4,5 @@
  */
 
 exports.index = function(req, res){
-  res.render('index', { title: '大连金牌企业管理咨询有限公司' });
+  res.render('index', { title: '大连金牌拓展训练俱乐部' });
 };
