@@ -300,12 +300,13 @@ ul#ticker li a:hover {
 }
 
 #nav-main {
-    background: url(img/nav-bg.png) no-repeat top left;
+   /* background: url(img/nav-bg.png) no-repeat top left;*/
     clear:both;
     color: #fff;
     float: left;
     position: relative;
     width: 940px;
+    background-color: #CF6B0E;
 }
 
 #nav-main ul li {

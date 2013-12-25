@@ -16,7 +16,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 body {
     background: #fff url(../img/grain-bg.jpg) repeat-x top;
     color: #444;
-    font: normal 100% helvetica, arial, sans-serif;
+    font: normal 100% 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     line-height: 100%;
     margin: 0px auto 0px;
     padding: 0px;
@@ -131,7 +131,7 @@ a:focus {
 
 #header-top-left {
     float: left;
-    font: bold 9px/9px helvetica, arial, sans-serif;
+    font: bold 9px/9px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     padding: 8px 20px;
 }
 
@@ -209,7 +209,7 @@ a:focus {
 
 #header-contain {
     background: url(../img/header-bg.png) no-repeat center;
-    padding: 10px 20px 0;
+    padding: 10px 0px 0;
     position: relative;
 }
 
@@ -230,7 +230,7 @@ a:focus {
     background: url(../img/latest.png) no-repeat left center;
     color: #fff;
     float: left;
-    font: 12px/12px helvetica, arial, sans-serif;
+    font: 12px/12px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     margin: 8px 0 0 50px;
 
     padding-left: 70px;
@@ -271,7 +271,7 @@ ul#ticker li a:hover {
     box-shadow: 1px 1px 0px #000 inset;
     color: #ddd;
     float: left;
-    font: 11px/11px helvetica, arial, sans-serif;
+    font: 11px/11px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     margin: 0;
     padding: 0 0 0 10px;
     width: 200px;
@@ -300,12 +300,13 @@ ul#ticker li a:hover {
 }
 
 #nav-main {
-    background: url(../img/nav-bg.png) no-repeat top left;
+    /* background: url(img/nav-bg.png) no-repeat top left;*/
     clear:both;
     color: #fff;
     float: left;
     position: relative;
-    width: 940px;
+    width: 980px;
+    background-color: #CF6B0E;
 }
 
 #nav-main ul li {
@@ -326,7 +327,7 @@ ul#ticker li a:hover {
     border-top-right-radius: 5px;
     color: #fff;
     display: block;
-    font: 16px/16px 'Open Sans Condensed', sans-serif;
+    font: 16px/16px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     margin-top: 8px;
     padding: 7px 12px;
     text-transform: uppercase;
@@ -383,7 +384,7 @@ ul#ticker li a:hover {
     color: #222;
     display: block;
     float: left;
-    font: 10px/14px helvetica, arial, sans-serif;
+    font: 10px/14px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     font-weight: bold;
     margin: 0px;
     padding: 5px  0 5px;
@@ -534,7 +535,7 @@ ul#ticker li a:hover {
 .home-feature-box-noimg h1 a {
     color: #333;
     float: left;
-    font: 43px/43px 'Open Sans Condensed', sans-serif;
+    font: 43px/43px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     padding-bottom: 5px;
     text-decoration: none;
     -ms-text-shadow: 2px 2px 2px #fff;
@@ -548,13 +549,13 @@ ul#ticker li a:hover {
 .home-feature-box p,
 .home-feature-box-noimg p {
     float: left;
-    font: 12px/17px helvetica, arial, sans-serif;
+    font: 12px/17px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     width: 100%;
 }
 
 .home-feature-box p a,
 .home-feature-box-noimg p a {
-    font: bold 12px/17px helvetica, arial, sans-serif;
+    font: bold 12px/17px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
 }
 
 .section-header h2 {
@@ -569,7 +570,7 @@ ul#ticker li a:hover {
     background: #fff;
     color: #aaa;
     float: left;
-    font: 20px/20px 'Open Sans Condensed', sans-serif;
+    font: 20px/20px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     padding-right: 15px;
     text-transform: uppercase;
 }
@@ -691,7 +692,7 @@ ul.post-categories li {
 .home-story-cat h2 a {
     color: #333;
     float: left;
-    font: 22px/24px 'Open Sans Condensed', sans-serif;
+    font: 22px/24px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     margin-bottom: 3px !important;
     margin-top: 0px !important;
     width: 100%;
@@ -706,12 +707,12 @@ ul.post-categories li {
 .home-story p,
 .home-story-cat p {
     float: left;
-    font: 12px/18px helvetica, arial, sans-serif;
+    font: 12px/18px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
 }
 
 .home-story p a,
 .home-story-cat p a {
-    font: bold 12px/16px helvetica, arial, sans-serif;
+    font: bold 12px/16px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
 }
 
 .home-headlines {
@@ -722,12 +723,12 @@ ul.post-categories li {
 
 .home-headlines h2 {
     color: #f00;
-    font: 16px/16px 'Open Sans Condensed', sans-serif;
+    font: 16px/16px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     margin-bottom: 5px;
 }
 
 .home-headlines a {
-    font: 13px/14px helvetica, arial, sans-serif;
+    font: 13px/14px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
 }
 
 .home-headlines ul {
@@ -758,7 +759,7 @@ span.section {
     background: #fff;
     color: #aaa;
     float: left;
-    font: 20px/20px 'Open Sans Condensed', sans-serif;
+    font: 20px/20px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     padding-right: 15px;
     text-transform: uppercase;
 }
@@ -801,7 +802,7 @@ h2.top-20 {
 
 .small-cat-story a {
     color: #333;
-    font: bold 12px/14px helvetica, arial, sans-serif;
+    font: bold 12px/14px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
 }
 
 .small-cat-story a:hover {
@@ -890,7 +891,7 @@ h2.top-20 {
 
 .cat-small {
     float: left;
-    font: bold 11px/13px helvetica, arial, sans-serif;
+    font: bold 11px/13px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     margin-bottom: 5px;
 }
 
@@ -917,37 +918,37 @@ h2.top-20 {
 
 #post-area h1 {
     color: #333;
-    font: 32px/36px 'Open Sans Condensed', sans-serif;
+    font: 32px/36px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     margin: 10px 0;
 }
 
 #post-area h2 {
     color: #333;
-    font: 28px/32px 'Open Sans Condensed', sans-serif;
+    font: 28px/32px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     margin: 10px 0;
 }
 
 #post-area h3 {
     color: #333;
-    font: 24px/28px 'Open Sans Condensed', sans-serif;
+    font: 24px/28px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     margin: 10px 0;
 }
 
 #post-area h4 {
     color: #333;
-    font: 20px/24px 'Open Sans Condensed', sans-serif;
+    font: 20px/24px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     margin: 10px 0;
 }
 
 #post-area h5 {
     color: #333;
-    font: 16px/20px 'Open Sans Condensed', sans-serif;
+    font: 16px/20px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     margin: 10px 0;
 }
 
 #post-area h6 {
     color: #333;
-    font: 12px/16px 'Open Sans Condensed', sans-serif;
+    font: 12px/16px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     margin: 10px 0;
 }
 
@@ -999,7 +1000,7 @@ h1.headline {
 }
 
 #post-404 h1 {
-    font: 80px/80px 'Open Sans Condensed', sans-serif;
+    font: 80px/80px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     border-bottom: none;
 }
 
@@ -1070,7 +1071,7 @@ h1.headline {
 .breadcrumb {
     color: #aaa;
     float: left;
-    font: 11px/11px helvetica, arial, sans-serif;
+    font: 11px/11px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     margin-bottom: 10px;
     width: 100%;
 }
@@ -1175,7 +1176,7 @@ h1.headline {
 .comment-reply {
     clear: both;
     float: left;
-    font: 11px/11px helvetica, arial, sans-serif;
+    font: 11px/11px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
 }
 
 ol.commentlist {
@@ -1406,7 +1407,7 @@ span.comments {
     background: #fff;
     color: #aaa;
     float: left;
-    font: 20px/20px 'Open Sans Condensed', sans-serif;
+    font: 20px/20px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     padding-right: 15px;
     text-transform: uppercase;
 }
@@ -1512,7 +1513,7 @@ ul.tabs li.active {
 
 ul.tabs li a {
     color: #777;
-    font: bold 11px/11px helvetica, arial, sans-serif;
+    font: bold 11px/11px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
 }
 
 ul.tabs li.active a {
@@ -1582,7 +1583,7 @@ ul.tabs li.active a {
 
 #tab1 a,
 #tab2 a {
-    font: 13px/16px helvetica, arial, sans-serif;
+    font: 13px/16px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
 }
 
 ul.headlines {
@@ -1604,7 +1605,7 @@ ul.headlines li:last-child {
 
 ul.headlines li a {
     color: #25a;
-    font: 13px/14px helvetica, arial, sans-serif;
+    font: 13px/14px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
 }
 
 ul.headlines li a:hover {
@@ -1619,7 +1620,7 @@ ul.latest-comments {
 ul.latest-comments li {
     display: block;
     float: left;
-    font: 11px/14px helvetica, arial, sans-serif;
+    font: 11px/14px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     padding: 5px 0;
     width: 100%;
 }
@@ -1642,7 +1643,7 @@ ul.latest-comments li {
     -o-box-shadow: 0px 2px 2px 0px #d5d5d5;
     -webkit-box-shadow: 0px 2px 2px 0px #d5d5d5;
     float: left;
-    font: 12px/17px helvetica, arial, sans-serif;
+    font: 12px/17px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     margin-bottom: 20px;
     overflow: hidden;
     padding: 9px;
@@ -1652,7 +1653,7 @@ ul.latest-comments li {
 
 .home-widget {
     float: left;
-    font: 12px/17px helvetica, arial, sans-serif;
+    font: 12px/17px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     margin-bottom: 20px;
     position: relative;
     width: 100%;
@@ -1697,7 +1698,7 @@ ul.latest-comments li {
 #tab1 .text,
 #tab2 .text {
     float: right;
-    font: 12px/17px helvetica, arial, sans-serif;
+    font: 12px/17px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     width: 183px;
 }
 
@@ -1706,7 +1707,7 @@ ul.latest-comments li {
 #tab1 .text-noimg,
 #tab2 .text-noimg {
     float: right;
-    font: 12px/17px helvetica, arial, sans-serif;
+    font: 12px/17px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     width: 288px;
 }
 
@@ -1760,7 +1761,7 @@ ul.latest-comments li {
 
 .widget-text {
     float: left;
-    font: 12px/17px helvetica, arial, sans-serif;
+    font: 12px/17px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     width: 288px;
 }
 
@@ -1783,7 +1784,7 @@ span.widget {
     background: #fff;
     color: #aaa;
     float: left;
-    font: 20px/20px 'Open Sans Condensed', sans-serif;
+    font: 20px/20px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     padding-right: 15px;
     text-transform: uppercase;
     width: auto;
@@ -1890,7 +1891,7 @@ ul#social li a {
     box-shadow: 0 0 8px 5px #363636 inset;
     color: #999;
     float: left;
-    font: 12px/20px helvetica , arial, sans-serif;
+    font: 12px/20px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     padding: 10px;
     position: relative;
     width: 960px;
@@ -1912,7 +1913,7 @@ ul#social li a {
 
 .footer-widget h3 {
     color: #fff;
-    font: 20px/20px 'Open Sans Condensed', sans-serif;
+    font: 20px/20px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     padding-bottom: 10px;
     text-shadow: 1px 1px 2px #000;
     -ms-text-shadow: 1px 1px 0 #000;
@@ -1948,7 +1949,7 @@ ul#footer {
 
 .footer-links h3 {
     color: #fff;
-    font: 20px/20px 'Open Sans Condensed', sans-serif;
+    font: 20px/20px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     padding-bottom: 10px;
     text-shadow: 1px 1px 2px #000;
     -ms-text-shadow: 1px 1px 0 #000;
@@ -1959,7 +1960,7 @@ ul#footer {
 
 #footer-info {
     float: left;
-    font: italic 11px/normal helvetica , arial, sans-serif;
+    font: italic 11px/normal 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     width: 100%;
 }
 
@@ -2007,7 +2008,7 @@ ul#footer {
 
 #footer-nav1 ul li a,
 #footer-nav2 ul li a {
-    font: 700 11px/11px 'Open Sans', sans-serif;
+    font: 700 11px/11px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
 }
 
 #footer-nav1 ul li ul,
@@ -2027,7 +2028,7 @@ ul#footer {
     -webkit-border-radius: 5px;
     cursor: pointer;
     display: inline-block;
-    font: 700 14px/14px 'Open Sans', sans-serif;
+    font: 700 14px/14px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     margin: 0 10px 10px 0;
     padding: 8px 12px;
 }
@@ -2151,7 +2152,7 @@ ul#footer {
 .dropcap {
     color: #888;
     float: left;
-    font: 700 40px/40px 'Open Sans Condensed', sans-serif;
+    font: 700 40px/40px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     margin-right: 6px;
     position: relative;
     text-transform: uppercase;
@@ -2348,7 +2349,7 @@ ul#footer {
     }
 
     #nav-main {
-        width: 720px;
+        width: 740px;
     }
 
     #leaderboard,
@@ -2365,7 +2366,7 @@ ul#footer {
 
     #header-contain {
         background: none;
-        padding: 10px 10px 0;
+        padding: 10px 0px 0;
         width: 720px;
     }
 
@@ -2424,7 +2425,7 @@ ul#footer {
     }
 
     .home-feature-box h1 a {
-        font: 32px/32px 'Open Sans Condensed', helvetica, arial, sans-serif;
+        font: 32px/32px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     }
 
     #headlines,
@@ -2564,7 +2565,7 @@ ul#footer {
     }
 
     .home-feature-box h1 a {
-        font: 39px/39px 'Open Sans Condensed', helvetica, arial, sans-serif;
+        font: 39px/39px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     }
 
     #headlines,
@@ -2708,7 +2709,7 @@ ul#footer {
     }
 
     .home-feature-box h1 a {
-        font: 32px/32px 'Open Sans Condensed', helvetica, arial, sans-serif;
+        font: 32px/32px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     }
 
     .flex-control-nav {
@@ -2873,7 +2874,7 @@ ul#footer {
     }
 
     .home-feature-box h1 a {
-        font: 21px/21px 'Open Sans Condensed', helvetica, arial, sans-serif;
+        font: 21px/21px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     }
 
     .home-cat-left,
