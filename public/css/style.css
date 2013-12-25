@@ -227,20 +227,20 @@ a:focus {
 }
 
 #news-ticker {
-    background: url(../img/latest.png) no-repeat left center;
-    color: #fff;
+    /*background: url(../img/latest.png) no-repeat left center;*/
+    color: #DF1010;
     float: left;
-    font: 12px/12px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
+    font: 19px/12px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     margin: 8px 0 0 50px;
 
-    padding-left: 70px;
-    padding-top: 6px;
+     padding-left: 70px;
+    padding-top: 16px;
     position: relative;
 }
 
 ul#ticker {
     width: 485px;
-    height: 14px;
+    height: 20px;
     overflow: hidden;
 }
 
