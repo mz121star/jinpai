@@ -73,8 +73,8 @@
                     <ul id="ticker">
 
 
-                        <li>  <i class="fa fa-phone"></i> :13840816188  <br></li>
-                        <li>  <i class="fa fa-envelope-o"></i>: service#dalianjinpai.com  <br></li>
+                        <li><i class="fa fa-phone"></i> :13840816188 <br></li>
+                        <li><i class="fa fa-envelope-o"></i>: service#dalianjinpai.com <br></li>
                     </ul>
                 </div>
 
@@ -609,7 +609,7 @@
            </ul>-->
         <ul>
             <li>
-                <i class="fa fa-phone"></i> :13840816188  <br>
+                <i class="fa fa-phone"></i> :13840816188 <br>
                 <i class="fa fa-envelope-o"></i>: service#dalianjinpai.com
             </li>
         </ul>
@@ -811,7 +811,8 @@
                                                                                                      alt="soccer4"/></a>
                 </div>
                 <div class="text">
-                    <h2><a href="#/2012/05/chandler-turns-down-u-s-training-camp-invite/" rel="bookmark">Adidas中国</a></h2>
+                    <h2><a href="#/2012/05/chandler-turns-down-u-s-training-camp-invite/" rel="bookmark">Adidas中国</a>
+                    </h2>
 
                     <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,...</p>
                 </div>
@@ -826,7 +827,8 @@
                                                                                                     alt="soccer1"/></a>
                 </div>
                 <div class="text">
-                    <h2><a href="#/2012/05/england-ace-keen-to-see-how-brennan-and-mason-perform/" rel="bookmark">Nike中国</a></h2>
+                    <h2><a href="#/2012/05/england-ace-keen-to-see-how-brennan-and-mason-perform/"
+                           rel="bookmark">Nike中国</a></h2>
 
                     <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,...</p>
                 </div>
@@ -868,36 +870,7 @@
                 <li>
                     <div class="contain">
                         <div style="width:300px;height:100px;border:#ccc solid 1px;" id="dituContent"></div>
-                        <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
-                        <script type="text/javascript">
-                            //创建和初始化地图函数：
-                            function initMap(){
-                                createMap();//创建地图
-                                setMapEvent();//设置地图事件
-                                addMapControl();//向地图添加控件
-                            }
 
-                            //创建地图函数：
-                            function createMap(){
-                                var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
-                                var point = new BMap.Point(121.610905,38.919551);//定义一个中心点坐标
-                                map.centerAndZoom(point,12);//设定地图的中心点和坐标并将地图显示在地图容器中
-                                window.map = map;//将map变量存储在全局
-                            }
-
-                            //地图事件设置函数：
-                            function setMapEvent(){
-
-                                map.enableScrollWheelZoom();//启用地图滚轮放大缩小
-                                map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
-
-                            }
-
-
-
-
-                            initMap();//创建和初始化地图
-                        </script>
                     </div>
 
                 </li>
@@ -908,8 +881,7 @@
     </div>
 
 
-
-    </div>
+</div>
 </div>
 <!--footer-->
 <div id="footer-bottom">
@@ -968,7 +940,10 @@
             <ul id="menu-secondary-menu-1" class="menu">
                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11650"><a
                         href="http://www.mvpthemes.com/support">订阅邮件</a></li>
-                <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11529"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_5776572'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/stat.php%3Fid%3D5776572%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script></li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11529">
+                    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                    document.write(unescape("%3Cspan id='cnzz_stat_icon_5776572'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/stat.php%3Fid%3D5776572%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+                </li>
             </ul>
 
         </div>
@@ -989,61 +964,57 @@
 <!--site-->
 
 
+</body>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1372646076592328" charset="utf-8"></script>
+
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+
 <script type="text/javascript">
+
+    var jiathis_config = {data_track_clickback: 'true', slide: {
+        divid: 'wrapper-inner',
+        pos: 'left'
+    }
+    };
     jQuery(document).ready(function ($) {
-        $(window).load(function () {
-            $('.flexslider').flexslider({
-                animation: "slide",
-                slideshowSpeed: 10000,
-                controlsContainer: ".flexslider-container"
-            });
+
+        $('.flexslider').flexslider({
+            animation: "slide",
+            slideshowSpeed: 10000,
+            controlsContainer: ".flexslider-container"
         });
-    });
-</script>
-
-<script type="text/javascript">
-    /* (function() {
-     var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-     po.src = 'js/plusone.js';
-     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-     })();*/
-</script>
-
-<script type="text/javascript">
-    jQuery(document).ready(function ($) {
-
         $('.carousel').elastislide({
             imageW: 145,
             minItems: 2,
             margin: 10
         });
+        //创建和初始化地图函数：
+        function initMap() {
+            createMap();//创建地图
+            setMapEvent();//设置地图事件
+
+        }
+
+        //创建地图函数：
+        function createMap() {
+            var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+            var point = new BMap.Point(121.610905, 38.919551);//定义一个中心点坐标
+            map.centerAndZoom(point, 12);//设定地图的中心点和坐标并将地图显示在地图容器中
+            window.map = map;//将map变量存储在全局
+        }
+
+        //地图事件设置函数：
+        function setMapEvent() {
+
+            map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+            map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+
+        }
+
+
+        initMap();//创建和初始化地图
     });
 </script>
-<script type="text/javascript">
-    var jiathis_config = {data_track_clickback: 'true'};
-</script>
-<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1372646076592328" charset="utf-8"></script>
-<!-- JiaThis Button BEGIN -->
-<div class="jiathis_share_slide jiathis_share_32x32" id="jiathis_share_slide">
-    <div class="jiathis_share_slide_top" id="jiathis_share_title"></div>
-    <div class="jiathis_share_slide_inner">
-        <div class="jiathis_style_32x32">
-            <a class="jiathis_button_qzone"></a>
-            <a class="jiathis_button_tsina"></a>
-            <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
-            <script type="text/javascript">
-                var jiathis_config = {data_track_clickback:'true'
-                    ,slide:{
-                        divid:'wrapper-inner',
-                        pos:'left'
-                    }
-                };
-            </script>
-            <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1372646076592328" charset="utf-8"></script>
-            <script type="text/javascript" src="http://v3.jiathis.com/code/jiathis_slide.js" charset="utf-8"></script>
-        </div></div></div>
-<!-- JiaThis Button END -->
-</body>
 </html>
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
