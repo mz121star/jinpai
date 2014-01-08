@@ -204,7 +204,8 @@ a:focus {
 
 #header-contain, #leaderboard {
     float: left;
-    width: 940px;
+   /* width: 940px;*/
+    width: 100%;
 }
 
 #header-contain {
@@ -216,8 +217,12 @@ a:focus {
 #header-bottom {
     float: left;
     position: relative;
+   /* width: 100%;*/
+    /*height: auto;*/
+    background: url(../img/head_bg.jpg);
+    height: 116px;
+    border-radius: 4px;
     width: 100%;
-    height: auto;
 }
 
 #logo {
@@ -493,25 +498,31 @@ ul#ticker li a:hover {
     float: left;
     padding-right: 20px;
     position: relative;
-    width: 610px;
+   /* width: 610px;*/
+    width: 100%;
 }
 
 /************************************************
 	Homepage
 ************************************************/
-
+.sliders li a img{
+    width: 610px;
+    height: 250px;
+}
 #home-top {
     clear: both;
     float: left;
     position: relative;
-    width: 610px;
+    /*width: 610px;*/
+    width: 100%;
 }
 
 #home-feature {
     float: left;
     margin-bottom: 35px;
     position: relative;
-    width: 610px;
+   /* width: 610px;*/
+    width: 100%;
     height: 400px;
 }
 
@@ -2367,7 +2378,8 @@ ul#footer {
     #header-contain {
         background: none;
         padding: 10px 0px 0;
-        width: 720px;
+       /* width: 720px;*/
+        width: 100%;
     }
 
     #header-top-left {
@@ -2474,6 +2486,7 @@ ul#footer {
 
 }
 
+/*
 @media screen and (max-width: 767px) and (min-width: 600px) {
     #wrapper,
     #header-top,
@@ -2892,4 +2905,4 @@ ul#footer {
         margin: 10px 0 0;
     }
 
-}
+}*/
