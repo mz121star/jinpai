@@ -11,7 +11,13 @@
 
 body{
   font: 16px/16px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
+   color: #000;
 
+}
+.course a{
+    font-size: 15px;
+    line-height: 25px;
+    color: #666;
 }
 #logo>a>img{padding: 7px 0px 0px 12px;}
 .banner_img     {width: 40%}
@@ -43,6 +49,24 @@ span.section {
     padding-right: 15px;
     text-transform: uppercase;
 }
+
+/************************************************
+	Carousel
+************************************************/
+
+.es-carousel-wrapper{position:relative;clear:both; width: 100%;}
+.es-carousel{overflow:hidden;}
+.es-carousel ul{display:none; padding:0px; margin:0px;}
+.es-carousel ul li{height:100%;float:left;display:block; position: relative;}
+.es-carousel ul li a{display:block;}
+.es-carousel ul li a img{display:block;border:none;max-height:100%;max-width:100%;padding:0px; margin:0px;}
+.es-nav span{position:absolute;text-indent:-9000px;cursor:pointer;top:27px;}
+.es-nav span.es-nav-next{right:0px;width:20px;height:40px;background:transparent url(../img/nav-arrows2.png) 0 0;}
+.es-nav span.es-nav-prev{left:0px;width:20px;height:40px;background:transparent url(../img/nav-arrows2.png) -20px 0;}
+.es-nav span.es-nav-next:hover{background:transparent url(../img/nav-arrows2.png) 0 -40px;}
+.es-nav span.es-nav-prev:hover{background:transparent url(../img/nav-arrows2.png) -20px -40px;}
+
+
 /***
 重写bootstrap**/
 .navbar-default .navbar-nav>li>a {
