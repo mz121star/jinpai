@@ -24,6 +24,11 @@ body{
 
 
 }
+#comment{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
 .tip{
     height: 123px;
     text-align: center;
