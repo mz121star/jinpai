@@ -29,6 +29,10 @@ body{
     top: 0;
     right: 0;
 }
+.contact{
+    height: 40px;
+
+}
 .tip{
     height: 123px;
     text-align: center;
