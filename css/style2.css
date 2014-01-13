@@ -38,8 +38,16 @@ body{
     text-align: center;
     background-color: orange;
     font-size: 33px;
-    padding-top: 51px;
+    padding-top: 30px;
     color: #FFF;
+}
+.tip_1{
+    display: block;
+    margin-bottom: 14px;
+    font-size: 34px;
+}
+.tip_2{
+    font-size: 20px;
 }
 .course li{
     list-style-image: url(../img/dao.jpg);

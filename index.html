@@ -10,18 +10,17 @@
     <meta name="description" content="打造大连拓展训练第一平台，提供专业大连拓展、大连拓展训练、大连户外拓展、大连拓展公司、大连拓展培训、大连野外拓展、大连大学生拓展训练、大连趣味运动会。大连沙滩活动等活动，以打造团队学习能力,工作能力， - 大连金牌户外拓展 />
     <meta name="keywords" content="拓展训练,混在职场,职业规划,前沿资讯,创业,户外旅游,励志,岗前培训,户外拓展,婚姻爱情-大连金牌拓展 " >
     <title>大连金牌户外拓展</title>
-
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
     <!-- Bootstrap core CSS -->
     <!-- 最新 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/css/bootstrap.min.css">
 
 
 
-    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
 
-    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" media="all" href="css/style2.css"/>
 
 
@@ -58,7 +57,7 @@
         <a class="navbar-brand" href="#"> </a>
     </div>
     <div class="navbar-collapse collapse orange">
-        <ul class="nav navbar-nav">
+        <ul id="m-menus" class="nav navbar-nav">
             <li id="menu-item-11566"
                 class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11566">
                 <a href="#">首页</a></li>
@@ -505,7 +504,9 @@
 </div>
 <!--/金牌与您携手同行，打造专业体验式拓展与户外休闲一站式引领品牌-->
 <div class="row">
-    <p class="tip ">金牌与您携手同行，打造专业体验式拓展与户外休闲一站式引领品牌</p>
+    <p class="tip "> <span class="tip_1">金牌与众合作伙伴携手同行</span>
+      <span  class="tip_2">为广大企业、青少年打造人力资源专业素质教育与体验式拓展培训一站式服务品牌！</span>
+    </p>
 </div>
 
 <div class="row">
@@ -586,40 +587,15 @@
                         <a href="#/">主页</a></li>
                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11673">
                         <a href="http://#">站点地图</a>
-                        <ul class="sub-menu">
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11675"><a
-                                    href="#/shortcodes/">Shortcodes</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11677"><a
-                                    href="#/typography/">Typography</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11676"><a
-                                    href="#/full-page-width/">Full Page Width</a></li>
-                        </ul>
+
                     </li>
                     <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-11519">
                         <a href="#/category/nfl/">联系我们</a>
-                        <ul class="sub-menu">
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11541"><a
-                                    href="http://#">Scores</a></li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11542"><a
-                                    href="http://#">Teams</a></li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11543"><a
-                                    href="http://#">Standings</a></li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11544"><a
-                                    href="http://#">Stats</a></li>
-                        </ul>
+
                     </li>
                     <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-11523">
                         <a href="#/category/mlb/">课程预订</a>
-                        <ul class="sub-menu">
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11539"><a
-                                    href="http://#">Scores</a></li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11540"><a
-                                    href="http://#">Teams</a></li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11537"><a
-                                    href="http://#">Standings</a></li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11538"><a
-                                    href="http://#">Stats</a></li>
-                        </ul>
+
                     </li>
                     <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11529"><a
                             href="#/category/nhl/">成为合作伙伴</a></li>
@@ -670,6 +646,8 @@
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 <!-- /container -->
+
+
 <script type='text/javascript' src='js/jquery.elastislide.js?ver=3.7.1'></script>
 <script>
     $(function () {
@@ -680,6 +658,11 @@
         });
     })
 </script>
+
+<script type="text/javascript" src="js/helper.js"></script>
+<script type="text/javascript" src="js/handlebars-v1.3.0.js"></script>
+
+<script type="text/javascript" src="js/index.js"></script>
 <!-- JiaThis Button BEGIN -->
 <div class="jiathis_share_slide jiathis_share_32x32" id="jiathis_share_slide">
     <div class="jiathis_share_slide_top" id="jiathis_share_title"></div>
@@ -689,20 +672,21 @@
             <a class="jiathis_button_tsina"></a>
             <a class="jiathis_button_weixin"></a>
             <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
-            <script type="text/javascript">
-                var jiathis_config = {data_track_clickback:'true'
-                    ,slide:{
-                        divid:'main',
-                        pos:'left'
-                    }
-                };
-            </script>
-            <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1372646076592328" charset="utf-8"></script>
-            <script type="text/javascript" src="http://v3.jiathis.com/code/jiathis_slide.js" charset="utf-8"></script>
+
         </div></div></div>
 <!-- JiaThis Button END -->
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 </body>
+<script type="text/javascript">
+    var jiathis_config = {data_track_clickback:'true'
+        ,slide:{
+            divid:'main',
+            pos:'left'
+        }
+    };
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1372646076592328" charset="utf-8"></script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jiathis_slide.js" charset="utf-8"></script>
 </html>
