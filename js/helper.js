@@ -6,8 +6,8 @@
         var template;
         $.get("../tmpl/" + tmpl).success(function (d) {
             template = Handlebars.compile(d);
-            $.get("../data/" + data).success(function (h) {
-                h = $.parseJSON(h);
+            $.getJSON("../data/" + data).success(function (h) {
+              /*  h = $.parseJSON(h);*/
                 var html = template(h);
                 callback(html);
             })
