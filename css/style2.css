@@ -14,7 +14,7 @@
 body{
   font: 16px/16px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
    color: #000;
-    background: #fff url(../img/grain-bg.jpg) repeat-x top;
+    background: #fff url(../img/grain-bg.jpg) repeat top;
 
 }
 .course_content a{
