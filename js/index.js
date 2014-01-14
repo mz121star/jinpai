@@ -4,7 +4,7 @@ $(function () {
         mHelper.render(url, data, function (html) {
             viewPlaceHolder.html(html);
             var duoshuoQuery = {short_name: "dalianjinpai"};
-
+           console.log("change!!!")
             var ds = document.createElement('script');
             ds.type = 'text/javascript';
             ds.async = true;
