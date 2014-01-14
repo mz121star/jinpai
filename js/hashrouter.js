@@ -35,7 +35,8 @@
 
         get_hash = function(url) {
             url = url || location.href;
-            return '#' + url.replace(/^[^#]*#?(.*)$/, '$1');
+            /*return '#' + url.replace(/^[^#]*#?(.*)$/, '$1');*/
+            return '#' + url.replace(/^[^#!]*#?\/(.*)$/, '$1');
         },
 
         set_history = function(hash, history_hash) {
@@ -89,9 +90,9 @@
             }
         }
         if(is_supports) {
-            hashChange(location.hash.replace('#',''));
+            hashChange(location.hash.replace('#!/',''));
             w.onhashchange = function() {
-                hashChange(location.hash.replace('#',''));
+                hashChange(location.hash.replace('#!/',''));
             }
         } else {
             fixHashChange();

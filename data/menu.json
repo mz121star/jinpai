@@ -1,7 +1,13 @@
   [
+      {
+          "title": "首页",
+          "code": "index",
+          "link":""
+      },
     {
         "title": "公司简介",
-        "code": "m1"
+        "code": "m1",
+        "link":"companyintro"
     },
     {
         "title": "企业拓展",

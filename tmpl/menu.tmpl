@@ -1,16 +1,20 @@
 {{#each this}}
 <li>
 
+    {{#if subMenu}}
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{title}}
 
-    <a class="dropdown-toggle" data-toggle="dropdown" href="http://#">{{title}}
-        {{#if subMenu}}
         <b class="caret"></b>
-        {{/if}}
+
     </a>
+    {{else}}
+    <a href="#!/{{link}}">{{title}}   </a>
+    {{/if}}
+
     {{#if subMenu}}
     <ul class="dropdown-menu">
         {{#each subMenu}}
-        <li><a href="#/{{link}}">{{title}}</a></li>
+        <li><a href="#!/{{link}}">{{title}}</a></li>
         {{/each}}
     </ul>
     {{/if }}
