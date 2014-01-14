@@ -8,13 +8,13 @@
 
     </a>
     {{else}}
-    <a href="#!/{{link}}">{{title}}   </a>
+    <a href="#/{{link}}">{{title}}   </a>
     {{/if}}
 
     {{#if subMenu}}
     <ul class="dropdown-menu">
         {{#each subMenu}}
-        <li><a href="#!/{{link}}">{{title}}</a></li>
+        <li><a href="#/{{link}}">{{title}}</a></li>
         {{/each}}
     </ul>
     {{/if }}
