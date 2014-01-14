@@ -5,17 +5,24 @@ $(function () {
             viewPlaceHolder.html(html);
 
         });
+    } ;
+    var SetContentPage=function(data){
+        SetPage("content-page.tmpl", data );
     }
     hashRouter({
          '':function(){
              SetPage("index.tmpl", {});
          },
-        'companyintro': function () {
-            SetPage("content-page.tmpl", "company-intro.json" );
+        'company-intro': function () {
+            SetContentPage("company-intro.json" );
         },
         'management-consulting':function(){
-            SetPage("content-page.tmpl", "management-consulting.json" );
+            SetContentPage("management-consulting.json" );
+        },
+        'vocational-training' :function(){
+            SetContentPage("vocational-training.json" );
         }
+
     })
 
     mHelper.render("menu.tmpl", "menu.json", function (html) {

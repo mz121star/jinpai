@@ -7,7 +7,7 @@
     {
         "title": "公司简介",
         "code": "m1",
-        "link":"companyintro"
+        "link":"company-intro"
     },
     {
         "title": "企业拓展",
@@ -25,7 +25,7 @@
             },
             {
                 "title": "新员工委培",
-                "link": "outdoor-development",
+                "link": "new-employee",
                 "img": "567153_12946579291.jpg"
             },
             {
