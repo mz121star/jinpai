@@ -292,7 +292,9 @@ ul#footer {
 .panel-warning>.panel-footer+.panel-collapse .panel-body {
     border-bottom-color: #6e7c23
 }
-
+.breadcrumb {
+    border-radius: 0px;
+}
 
 /**工具class，修正bootstrap**/
 .clear_padding_left{
