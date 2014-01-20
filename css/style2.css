@@ -303,6 +303,10 @@ ul#footer {
     border-radius: 0px;
 }
 
+.navbar-default {
+    background-color: orange;
+}
+
 /**工具class，修正bootstrap**/
 .clear_padding_left{
      padding-left: 0px;
