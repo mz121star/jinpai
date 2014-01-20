@@ -131,32 +131,8 @@
     {
         "title": "金牌团队",
         "code": "m6",
-        "subMenu": [
-            {
-                "title": "刘景亮",
-                "link": "people-ljl"
-            },
-            {
-                "title": "陈 科",
-                "link": "people-ck"
-            },
-            {
-                "title": "王 林",
-                "link": "people-wl"
-            },
-            {
-                "title": "吴忠宇",
-                "link": "people-wzy"
-            },
-            {
-                "title": "张 雷",
-                "link": "people-zl"
-            },
-            {
-                "title": "张 林",
-                "link": "people-zl1"
-            }
-        ]
+        "link":"people-group"
+
     }
 ]
 

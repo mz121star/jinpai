@@ -43,7 +43,7 @@ $(function () {
         , 'people-wl': function () { SetContentPage("people-wl.json");}
         , 'people-wzy': function () { SetContentPage("people-wzy.json");}
         , 'people-zl': function () { SetContentPage("people-zl.json");}
-        , 'people-zl1': function () { SetContentPage("people-zl1.json");}
+        , 'people-group': function () { SetContentPage("people-group.json");}
         , 'wild-live': function () { SetContentPage("wild-live.json");}
 
     })

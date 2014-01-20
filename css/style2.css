@@ -69,7 +69,7 @@ body{
    color: #a80d0d;
 }
 #logo>a>img{padding: 7px 0px 0px 12px;}
-.banner_img     {width: 40%}
+.banner_img     {width: 40%;margin-left: 14%;}
 .contact  {border-bottom: 4px #262629 solid;  margin-top: 15px;}
 .panel-body   p {
     font-size: 14px;
