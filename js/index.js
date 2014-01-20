@@ -13,6 +13,11 @@ $(function () {
         '': function () {
             SetPage("index.tmpl", {});
         },
+         'people-group': function () {
+             mHelper.render("people-group.tmpl", "data-people.json", function (html) {
+                 viewPlaceHolder.html(html);
+             });
+         },
         'company-intro': function () {
             SetContentPage("company-intro.json");
         },
@@ -43,7 +48,7 @@ $(function () {
         , 'people-wl': function () { SetContentPage("people-wl.json");}
         , 'people-wzy': function () { SetContentPage("people-wzy.json");}
         , 'people-zl': function () { SetContentPage("people-zl.json");}
-        , 'people-group': function () { SetContentPage("people-group.json");}
+
         , 'wild-live': function () { SetContentPage("wild-live.json");}
 
     })

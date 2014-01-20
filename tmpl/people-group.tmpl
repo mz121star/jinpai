@@ -1,0 +1,47 @@
+
+
+<div class="row">
+    <div class="col-md-12">
+        <ol class="breadcrumb ">
+            <li><a href="#">首页</a></li>
+            <li><a href="#" class="">金牌团队</a></li>
+
+        </ol>
+    </div>
+    <div class="col-md-8">
+        <h2  class="text-center">金牌团队</h2>
+
+
+
+        {{#each this}}
+        <div class="media">
+            <a class="pull-left" href="javascript:;">
+                <img class="media-object"  src="img/{{name}}.jpg" width="150" alt="{{name}}">
+            </a>
+            <div class="media-body">
+                <h4 class="media-heading">{{name}} </h4>
+                {{description}}
+            </div>
+        </div>
+        {{/each}}
+        <!-- UY BEGIN -->
+        <!-- Duoshuo Comment BEGIN -->
+        <div class="ds-thread" data-thread-key="{{title}}" data-title="{{title}}" data-url="{{title}}"></div>
+        <script>
+
+            var duoshuoQuery = {short_name: "dalianjinpai"};
+            $("#duoshuo_m").remove();
+            var ds = document.createElement('script');
+            ds.id="duoshuo_m";
+            ds.type = 'text/javascript';
+            ds.async = true;
+            ds.src = 'http://static.duoshuo.com/embed.js';
+            ds.charset = 'UTF-8';
+            (document.getElementsByTagName('head')[0]
+                    || document.getElementsByTagName('body')[0]).appendChild(ds);
+
+        </script>
+        <!-- Duoshuo Comment END -->
+    </div>
+
+</div>

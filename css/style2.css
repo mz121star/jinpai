@@ -59,8 +59,8 @@ body{
 }
 .course li>a{
 
-    border-bottom: 1px dashed silver;
-    font-size: 13px;
+   /* border-bottom: 1px dashed silver;*/
+    font-size: 16px;
     font-style: normal;
     color: #000000;
     text-decoration: none;
@@ -92,13 +92,15 @@ h2.section {
 }
 span.section {
     background: #fff;
-    color: #aaa;
+    color: green;
     float: left;
     font: 20px/20px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;
     padding-right: 15px;
     text-transform: uppercase;
 }
-
+ .red{color: #ff0000}
+ .people{border-bottom: 1px solid green;
+     margin-bottom: 12px;}
 /************************************************
 	Carousel
 ************************************************/
