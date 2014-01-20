@@ -73,11 +73,11 @@
             },
             {
                 "title": "户外拓展",
-                "link": "outdoor-development"
+                "link": "barracks-life-young"
             },
             {
                 "title": "军营体验",
-                "link": "barracks-life"
+                "link": "wild-live-young"
             },
             {
                 "title": "徒步穿越",
@@ -89,7 +89,7 @@
             },
             {
                 "title": "趣味运动会",
-                "link": "fun-games"
+                "link": "fun-games-young"
             },
             {
                 "title": "校园活动",
@@ -103,11 +103,11 @@
         "subMenu": [
             {
                 "title": "户外拓展",
-                "link": "outdoor-development"
+                "link": "barracks-life"
             },
             {
                 "title": "军营体验",
-                "link": "barracks-life"
+                "link": "wild-live-young"
             },
             {
                 "title": "徒步穿越",
@@ -119,7 +119,7 @@
             },
             {
                 "title": "亲子趣味竞技",
-                "link": "parent-child-interest-competitive"
+                "link": "fun-games-young"
             }
         ]
     },
@@ -134,27 +134,27 @@
         "subMenu": [
             {
                 "title": "刘景亮",
-                "link": "vip-custom"
+                "link": "people-ljl"
             },
             {
                 "title": "陈 科",
-                "link": "vip-custom"
+                "link": "people-ck"
             },
             {
                 "title": "王 林",
-                "link": "vip-custom"
+                "link": "people-wl"
             },
             {
                 "title": "吴忠宇",
-                "link": "vip-custom"
+                "link": "people-wzy"
             },
             {
                 "title": "张 雷",
-                "link": "vip-custom"
+                "link": "people-zl"
             },
             {
                 "title": "张 林",
-                "link": "vip-custom"
+                "link": "people-zl1"
             }
         ]
     }
