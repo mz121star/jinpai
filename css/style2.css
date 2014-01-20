@@ -36,6 +36,8 @@ body{
     height: 40px;
 
 }
+#contact p{margin-bottom: 0px;
+}
 .tip{
     height: 123px;
     text-align: center;
