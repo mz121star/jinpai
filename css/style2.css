@@ -46,6 +46,15 @@ body{
     padding-top: 30px;
     color: #FFF;
 }
+.tip_small{
+    height: 80px;
+    text-align: center;
+    background-color: #cc0000;
+    font-size: 33px;
+    padding-top: 30px;
+    color: #FFF;
+    margin-top: 10px;
+}
 .tip_1{
     display: block;
     margin-bottom: 14px;
