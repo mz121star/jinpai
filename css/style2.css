@@ -116,7 +116,7 @@ span.section {
 
 .es-carousel-wrapper{position:relative;clear:both; width: 100%;}
 .es-carousel{overflow:hidden;}
-.es-carousel ul{display:none; padding:0px; margin:0px;}
+.es-carousel ul{display:black; padding:0px; margin:0px;}
 .es-carousel ul li{height:100%;float:left;display:block; position: relative;}
 .es-carousel ul li a{display:block;}
 .es-carousel ul li a img{display:block;border:none;max-height:100%;max-width:100%;padding:0px; margin:0px;}
