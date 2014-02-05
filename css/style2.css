@@ -110,6 +110,9 @@ span.section {
  .red{color: #ff0000}
  .people{border-bottom: 1px solid green;
      margin-bottom: 12px;}
+
+.tzjd ul li{margin-left: 5px}
+#footer-bottom{margin-top: 10px}
 /************************************************
 	Carousel
 ************************************************/
