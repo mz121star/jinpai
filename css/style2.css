@@ -49,7 +49,7 @@ body{
 .tip_small{
     height: 80px;
     text-align: center;
-    background-color: #cc0000;
+    background-color: orange;
     font-size: 33px;
     padding-top: 30px;
     color: #FFF;
@@ -113,6 +113,10 @@ span.section {
 
 .tzjd ul li{margin-left: 5px}
 #footer-bottom{margin-top: 10px}
+/*.story-text{
+    background-color: #DBDBC0;
+    height: 215px;
+}*/
 /************************************************
 	Carousel
 ************************************************/
@@ -318,7 +322,12 @@ ul#footer {
 .navbar-default {
     background-color: orange;
 }
-
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+    z-index: 2;
+    color: #fff;
+    background-color: orange;
+    border-color: #c0c0c0;
+}
 /**工具class，修正bootstrap**/
 .clear_padding_left{
      padding-left: 0px;

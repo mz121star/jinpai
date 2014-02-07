@@ -1,6 +1,15 @@
 (function (window) {
-    var render = function (tmpl, data, callback) {
 
+    var render = function (tmpl, data, callback) {
+        Handlebars.registerHelper('ex-if', function(actual,expected,result) {
+            if(actual===expected){
+                return result
+            }
+            else{
+                return '';
+            }
+
+        });
         var template;
         $.get("../tmpl/" + tmpl).success(function (d) {
             template = Handlebars.compile(d);
