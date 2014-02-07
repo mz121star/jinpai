@@ -113,6 +113,18 @@ span.section {
 
 .tzjd ul li{margin-left: 5px}
 #footer-bottom{margin-top: 10px}
+
+/****************************************************
+ 内容页面
+ **********************************************************/
+ .post_title{ text-align:center;}
+  .post_title h1{font: 35px 'Microsoft YaHei','微软雅黑','MicrosoftJhengHei','华文细黑','STHeiti,MingLiu','Open Sans Condensed', helvetica, arial, sans-serif;}
+  .post_title span.pt_info{display:block;padding-top:5px;color:#888;}
+/*.content .post_content{padding-top:30px;}*/
+ .post_content p{padding-bottom:20px;font-size:14px;line-height:24px;word-wrap:break-word;}
+
+
+
 /*.story-text{
     background-color: #DBDBC0;
     height: 215px;
