@@ -9,7 +9,7 @@ page_dir = "pages";
     phantom.exit(1);
 }else {*/
     //page_name = system.args[1];
-    url="http://dalianjinpai.com/";
+    url="http://dalianjinpai.com/#!company-intro";
 
     page.open(url, function (status) {
         if (status !== "success") {

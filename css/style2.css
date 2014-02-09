@@ -124,7 +124,12 @@ span.section {
  .post_content p{padding-bottom:20px;font-size:14px;line-height:24px;word-wrap:break-word;}
 
 
-
+  .carousel-caption h3{
+      color: #FAFEFF;
+     font-size: 26px;
+      font-weight: bold;
+     /* text-shadow:2px 2px 2px #000;*/
+  }
 /*.story-text{
     background-color: #DBDBC0;
     height: 215px;
