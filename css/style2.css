@@ -346,6 +346,10 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
     background-color: orange;
     border-color: #c0c0c0;
 }
+.nav>li>a {
+
+    padding: 10px 27px;
+}
 /**工具class，修正bootstrap**/
 .clear_padding_left{
      padding-left: 0px;
