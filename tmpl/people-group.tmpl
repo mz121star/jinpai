@@ -1,32 +1,80 @@
-
-
 <div class="row">
     <div class="col-md-12">
         <ol class="breadcrumb ">
             <li><a href="#">首页</a></li>
             <li><a href="#" class="">金牌团队</a></li>
-
         </ol>
     </div>
-    <div class="col-md-8">
-        <h2  class="text-center">金牌团队</h2>
+    <div class="col-md-3">
+        <div class="list-group">
 
 
+            <a href="#!company-intro" class="list-group-item  {{ex-if title '公司简介' 'active'}}">公司简介</a>
+            <a href="#!management-consulting" class="list-group-item  {{ex-if title '人力资源顾问' 'active'}}">人力资源顾问</a>
+            <a href="#!vocational-training" class="list-group-item  {{ex-if title '职业综合素质测评' 'active'}}">职业综合素质测评</a>
+            <a href="#!new-employee" class="list-group-item  {{ex-if title '新员工委培' 'active'}}">新员工委培</a>
+            <a href="#!hiking" class="list-group-item  {{ex-if title '徒步穿越' 'active'}}">徒步穿越</a>
+            <a href="#!cs-fighting" class="list-group-item  {{ex-if title 'CS野战' 'active'}}">CS野战</a>
+            <a href="#!barracks-life" class="list-group-item  {{ex-if title '户外拓展' 'active'}}">户外拓展</a>
+            <a href="#!wild-live" class="list-group-item  {{ex-if title '军营集训' 'active'}}">军营集训</a>
+            <a href="#!fun-games" class="list-group-item  {{ex-if title '趣味运动会' 'active'}}">趣味运动会</a>
+            <a href="#!eighteen-adult-ceremony" class="list-group-item  {{ex-if title '十八岁成人礼' 'active'}}">十八岁成人礼</a>
+            <a href="#!summer-and-winter-camp" class="list-group-item  {{ex-if title '夏、冬令营' 'active'}}">夏、冬令营</a>
 
-        {{#each this}}
-        <div class="media">
-            <a class="pull-left" href="javascript:;">
-                <img class="media-object"  src="img/{{name}}.jpg" width="150" alt="{{name}}">
-            </a>
-            <div class="media-body">
-                <h4 class="media-heading">{{name}} </h4>
-                {{description}}
-            </div>
         </div>
-        {{/each}}
-        <!-- UY BEGIN -->
-        <!-- Duoshuo Comment BEGIN -->
-        <div class="ds-thread" data-thread-key="{{title}}" data-title="{{title}}" data-url="{{title}}"></div>
+        <div class="left-image hidden-xs hidden-sm">
+
+            {{#if leftimage}}
+            {{#each leftimage}}
+            <div  ><img class="img-responsive img-thumbnail " src="img/{{this}}"/></div>
+            {{/each}}
+            {{else}}
+
+            {{/if}}
+
+
+        </div>
+        <div class="ad" style="width:200px ;height: 200px">
+            <a style="display:none!important" id="tanx-a-mm_23678556_5532523_17126811"></a>
+            <script type="text/javascript">
+
+                tanx_s = document.createElement("script");
+                tanx_s.type = "text/javascript";
+                tanx_s.charset = "gbk";
+                tanx_s.id = "tanx-s-mm_23678556_5532523_17126811";
+                tanx_s.async = true;
+                tanx_s.src = "http://p.tanx.com/ex?i=mm_23678556_5532523_17126811";
+                tanx_h = document.getElementsByTagName("head")[0];
+                if(tanx_h)tanx_h.insertBefore(tanx_s,tanx_h.firstChild);
+            </script>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <div class="post_title text-center"><h1>金牌团队</h1>
+            <span class="pt_info pre1">2014-1-29 16:44:38　出处：金牌拓展　<span
+                    id="hitcount">人气：12250次</span>　</span>
+        </div>
+        <hr></hr>
+
+
+
+
+
+
+        <div class="row">
+            {{#each this}}
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="img/{{name}}.jpg" style="height: 140px" alt="{{name}}" />
+                    <div class="caption">
+                        <h3>{{name}}</h3>
+                        <p>{{description}}</p>
+                        <p><a href="#" class="btn btn-primary" role="button">赞</a>  </p>
+                    </div>
+                </div>
+            </div>        {{/each}}
+        </div>
+
         <script>
 
             var duoshuoQuery = {short_name: "dalianjinpai"};
@@ -40,8 +88,31 @@
             (document.getElementsByTagName('head')[0]
                     || document.getElementsByTagName('body')[0]).appendChild(ds);
 
+            document.title=  "{{title}}-大连金牌户外拓展" ;
         </script>
         <!-- Duoshuo Comment END -->
     </div>
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
