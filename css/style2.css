@@ -131,7 +131,7 @@ span.section {
      /* text-shadow:2px 2px 2px #000;*/
   }
 
-.top-image  img{width: 100%}
+
 /*.story-text{
     background-color: #DBDBC0;
     height: 215px;
@@ -145,7 +145,7 @@ span.section {
 .es-carousel ul{display:black; padding:0px; margin:0px;}
 .es-carousel ul li{height:100%;float:left;display:block; position: relative;}
 .es-carousel ul li a{display:block;}
-.es-carousel ul li a img{display:block;border:none;max-height:100%;max-width:100%;padding:0px; margin:0px;}
+.es-carousel ul li a img{display:block; max-height:100px;max-width:145px;  }
 .es-nav span{position:absolute;text-indent:-9000px;cursor:pointer;top:27px;}
 .es-nav span.es-nav-next{right:0px;width:20px;height:40px;background:transparent url(../img/nav-arrows2.png) 0 0;}
 .es-nav span.es-nav-prev{left:0px;width:20px;height:40px;background:transparent url(../img/nav-arrows2.png) -20px 0;}
