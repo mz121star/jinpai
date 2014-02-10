@@ -122,7 +122,7 @@ span.section {
   .post_title span.pt_info{display:block;padding-top:5px;color:#888;}
 /*.content .post_content{padding-top:30px;}*/
  .post_content p{padding-bottom:20px;font-size:14px;line-height:24px;word-wrap:break-word;}
-
+   .top-image img{width: 100%;}
 
   .carousel-caption h3{
       color: #FAFEFF;
