@@ -130,6 +130,8 @@ span.section {
       font-weight: bold;
      /* text-shadow:2px 2px 2px #000;*/
   }
+
+.top-image  img{width: 100%}
 /*.story-text{
     background-color: #DBDBC0;
     height: 215px;

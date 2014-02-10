@@ -22,6 +22,18 @@
             <a href="#!summer-and-winter-camp" class="list-group-item  {{ex-if title '夏、冬令营' 'active'}}">夏、冬令营</a>
 
         </div>
+        <div class="left-image">
+
+            {{#if leftimage}}
+                {{#each leftimage}}
+                     <div class="top-image"><img  src="img/{{this}}"/></div>
+                {{/each}}
+            {{else}}
+
+            {{/if}}
+
+
+        </div>
         <div class="ad" style="width:200px ;height: 200px">
             <a style="display:none!important" id="tanx-a-mm_23678556_5532523_17126811"></a>
             <script type="text/javascript">
@@ -43,6 +55,12 @@
                 id="hitcount">人气：12250次</span>　</span>
         </div>
         <hr></hr>
+        {{#if topimage}}
+        <div class="top-image"><img  src="img/{{topimage}}"/></div>
+        {{else}}
+
+        {{/if}}
+
         <p>{{{content}}}</p>
         <!-- UY BEGIN -->
         <!-- Duoshuo Comment BEGIN -->
