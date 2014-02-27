@@ -13,11 +13,11 @@ $(function () {
         '': function () {
             SetPage("index.tmpl", {});
         },
-         'people-group': function () {
-             mHelper.render("people-group.tmpl", "data-people.json", function (html) {
-                 viewPlaceHolder.html(html);
-             });
-         },
+        'people-group': function () {
+            mHelper.render("people-group.tmpl", "data-people.json", function (html) {
+                viewPlaceHolder.html(html);
+            });
+        },
         'company-intro': function () {
             SetContentPage("company-intro.json");
         },
@@ -32,24 +32,56 @@ $(function () {
         },
         'barracks-life': function () {
             SetContentPage("barracks-life.json");
+        }, 'hiking': function () {
+            SetContentPage("hiking.json");
+        }, 'cs-fighting': function () {
+            SetContentPage("cs-fighting.json");
+        }, 'fun-games': function () {
+            SetContentPage("fun-games.json");
+        }, 'summer-and-winter-camp': function () {
+            SetContentPage("summer-and-winter-camp.json");
+        }, 'quality-training': function () {
+            SetContentPage("quality-training.json");
+        }, 'eighteen-adult-ceremony': function () {
+            SetContentPage("eighteen-adult-ceremony.json");
+        }, 'barracks-life-young': function () {
+            SetContentPage("barracks-life-young.json");
+        }, 'wild-live-young': function () {
+            SetContentPage("wild-live-young.json");
+        }, 'fun-games-young': function () {
+            SetContentPage("fun-games-young.json");
+        }, 'people-ljl': function () {
+            SetContentPage("people-ljl.json");
+        }, 'people-ck': function () {
+            SetContentPage("people-ck.json");
+        }, 'people-wl': function () {
+            SetContentPage("people-wl.json");
+        }, 'people-wzy': function () {
+            SetContentPage("people-wzy.json");
+        }, 'people-zl': function () {
+            SetContentPage("people-zl.json");
+        }, 'wild-live': function () {
+            SetContentPage("wild-live.json");
+
+        }, 'sdtz1': function () {
+            SetContentPage("sdtz1.json");
+        }, 'httz': function () {
+            SetContentPage("httz.json");
+        }, 'jytz': function () {
+            SetContentPage("jytz.json");
+        }, 'qwydh': function () {
+            SetContentPage("qwydh.json");
+        }, 'zmyrjy': function () {
+            SetContentPage("zmyrjy.json");
+        }, 'sdyr': function () {
+            SetContentPage("sdyr.json");
+        }, 'jyyryyy': function () {
+            SetContentPage("jyyryyy.json");
+        }, 'jtqzqw': function () {
+            SetContentPage("jtqzqw.json");
+        }, 'cjtqhd': function () {
+            SetContentPage("cjtqhd.json");
         }
-
-        , 'hiking': function () { SetContentPage("hiking.json");}
-        , 'cs-fighting': function () { SetContentPage("cs-fighting.json");}
-        , 'fun-games': function () { SetContentPage("fun-games.json");}
-        , 'summer-and-winter-camp': function () { SetContentPage("summer-and-winter-camp.json");}
-        , 'quality-training': function () { SetContentPage("quality-training.json");}
-        , 'eighteen-adult-ceremony': function () { SetContentPage("eighteen-adult-ceremony.json");}
-        , 'barracks-life-young': function () { SetContentPage("barracks-life-young.json");}
-        , 'wild-live-young': function () { SetContentPage("wild-live-young.json");}
-        , 'fun-games-young': function () { SetContentPage("fun-games-young.json");}
-        , 'people-ljl': function () { SetContentPage("people-ljl.json");}
-        , 'people-ck': function () { SetContentPage("people-ck.json");}
-        , 'people-wl': function () { SetContentPage("people-wl.json");}
-        , 'people-wzy': function () { SetContentPage("people-wzy.json");}
-        , 'people-zl': function () { SetContentPage("people-zl.json");}
-
-        , 'wild-live': function () { SetContentPage("wild-live.json");}
 
     })
 
